@@ -1,8 +1,8 @@
 {
-    "name": "phpoffice/phpexcel",
+    "name": "chitholian/phpexcel",
     "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
     "keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet"],
-    "homepage": "https://github.com/PHPOffice/PHPExcel",
+    "homepage": "https://github.com/chitholian/PHPExcel",
     "type": "library",
     "license": "LGPL-2.1",
     "authors": [
@@ -20,10 +20,13 @@
         },
         {
             "name": "Erik Tilt"
+        },
+        {
+            "name": "Atikur Rahman"
         }
     ],
     "require": {
-        "php": "^5.2|^7.0",
+        "php": "^5.2|^7.0|^8.0",
         "ext-mbstring": "*",
         "ext-xml": "*",
         "ext-xmlwriter": "*"
